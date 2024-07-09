@@ -1,0 +1,82 @@
+*{
+	border: none;
+}
+
+.body{
+	align-items: center;
+	flex: center;
+}
+
+.cadastro{
+	background-image: url('https://img.freepik.com/fotos-gratis/design-de-escritorio-moderno-com-equipamento-de-computador-gerado-por-ai_188544-22422.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 98vw;
+	height: 95vh;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	justify-content: center;
+}
+
+.cadastro h1{
+	display: flex;
+	color: #ffffff;
+}
+
+.input-nome{
+	display: flex;
+	border-bottom: 2px;
+	border-bottom-color: #ffffff;
+	border-radius: 20px;
+	min-height: 30px;
+	min-width: 200px;
+	margin-top: 0.5%;
+	background-color: #D3D3D3;
+}
+
+.input-telefone{
+	display: flex;
+	border-bottom: 10px;
+	border-bottom-color: #111111;
+	border-radius: 20px;
+	min-height: 30px;
+	min-width: 200px;
+	margin-top: 0.5%;
+}
+
+.input-telefone:valid{
+	background-color: #D3D3D3;
+}
+
+.input-telefone:invalid{
+	background-color: #FF0000;
+}
+
+.input-email{
+	display: flex;
+	border-bottom: 2px;
+	border-bottom-color: #ffffff;
+	border-radius: 20px;
+	min-height: 30px;
+	min-width: 200px;
+	margin-top: 0.5%;
+}
+
+.input-email:valid{
+	background-color: #D3D3D3;
+}
+
+.input-email:invalid{
+	border: #FF0000 solid 4px;
+}
+
+.enviar{
+	display: flex;
+	cursor: pointer;
+	border-radius: 20px;
+	min-height: 30px;
+	margin-top: 1%;
+	line-height: 25px;
+}
